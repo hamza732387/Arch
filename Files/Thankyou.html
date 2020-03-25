@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Thankyou.css">
+    <title>Thank You</title>
+</head>
+
+<body>
+    <header class='header'>
+        <img class="wave_img" src="Images/Background/wave-header.png">
+        <h1 class="title">
+            #ARCH
+        </h1>
+        <img class="donate_img" src="./Images/Illustration/donate-1.png">
+
+
+    </header>
+    <h2 class="text1">
+     Un grand merci pour cette action citoynne engagée
+        <p>n'hésitez pas le partager avec vos contacts</p>
+    </h2>
+
+    <div class="dd1">
+        <div class="card" >
+            <img src="./Images/Icon/share.png" name="clean" class="clean_img">
+            <h3 class="text2">
+                Je partage<p style="font-size: 15px;">sur mew réseaux sociaux</p>
+                <p style="font-size: 15px;"> FB,TW, Instagram, LinkedIn</p>
+            </h3>
+            <button class="btn" onclick="show()" >Je partage</button>  
+        </div>
+        
+    </div>
+    <div class="bottom" id="tooltips">
+        <b style="margin-bottom:20px;color: darkgray;">SHARE</b>
+        <div class="link"><span><img class="icon" src="./Images//Icon/facebook.svg"><span class="label"><b onclick="goF()">Share on Facebook</b></span> </div>
+        <div class="link"><img class="icon" src="./Images//Icon/twitter.svg"><span class="label"><b onclick="goT()">Share on Twitter</b></span></div>
+        <div class="link" onclick="hide()"><img class="icon_close" src='./Images/Icon/close.png'></div>
+     </div>
+
+    </div>
+    <div class="footer">
+        <H1 style="font-size: 25px;color: rgb(105, 105, 105);">How Are we</H1>
+        <div class="div5">
+
+            <div class="images">
+
+                <div class="img">
+
+                    <img src="./Images/person/sophian.png" width="125">
+
+                    <p class="PI">
+                        <b>SOFIAME AMMAR</b>
+                        <p></p>
+
+                        <p>FOUNDER OF CHAMS</p>
+                    </p>
+                </div>
+                <div class="img">
+
+                    <img src="./Images/person/antoino.png" width="125">
+
+                    <p class="PI">
+                        <b>ANTOINE MEUNIER</b>
+                        <p></p>
+
+                        <p>CO-FOUNDER OF CHAMS</p>
+                    </p>
+                </div>
+                <div class="img">
+
+                    <img src="./Images/person/Yohann.png" width="125">
+
+                    <p class="PI">
+                        <b>YOHANN DUPASQUIER</b>
+                        <p></p>
+                        <p>BOARD AND CAMPAING PRESIDENT</p>
+                    </p>
+                </div>
+                <div class="imgc" > 
+                    <div class="img">
+
+                        <img src="./Images/person/bashar.jpg" width="125">
+
+                        <p class="PI">
+                            <b>BASHAR ABDUL QAIYUME</b>
+                            <p></p>
+                            <p>LEAD TEACHER (AMMAN)</p>
+                        </p>
+                    </div>
+                    <div class="img">
+
+                        <img src="./Images/person/hamzah.png" width="125">
+
+                        <p class="PI">
+                            <b>HAMZA RASHED</b>
+                            <p></p>
+                            <p>CHAMS TRAINEE & PROJECT DEVELOPERS</p>
+                        </p>
+                    </div>
+                    <div class="img">
+
+                        <img src="./Images/person/refaee.jpg" width="125">
+
+                        <p class="PI">
+                            <b>MOHAMMAD AL REFAEE</b>
+                            <p></p>
+                            <p>CHAMS TRAINEE & PROJECT DEVELOPERS</p>
+                        </p>
+                    </div>
+
+                </div>
+
+             
+                <div class="img" style=" float: left;">
+
+                    <img src="./Images/person/halaa.jpg" width="130">
+
+                    <p class="PI">
+                        <b>HALA Y.OBEIDAT</b>
+                        <p></p>
+                        <p>SOFT SKILLS EXPERT</p>
+                    </p>
+                </div>
+                <div class="img" >
+
+                    <img src="./Images/person/IMG_20200323_013116.png" width="130">
+
+                    <p class="PI">
+                        <b>PASHU CHRISTENSEN</b>
+                        <p></p>
+                        <p>US FRENCH AMBASSADOR</p>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+       
+<script>
+
+let tooltips=document.getElementById("tooltips")
+function show(){
+    tooltips.style.display='block'
+    window.scrollTo(250, 510); 
+}
+function hide(){
+    tooltips.style.display='none'
+
+}
+function goF(){
+Window = window.open( 
+    "http://www.facebook.com/sharer.php?u=https://arch-chams.herokuapp.com", 
+      "Share on Facebook", "width=400, height=450"); 
+
+}
+function goT(){
+    Window = window.open( 
+        "https://twitter.com/share?url=https://arch-chams.herokuapp.com&amp;text=Chams%20Share%20Arch&amp;hashtags=chamssharearch", 
+          "Share on Twitter", "width=400, height=450"); 
+  }
+</script>
+</body>
+
+</html>
