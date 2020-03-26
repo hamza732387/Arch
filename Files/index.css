@@ -629,70 +629,18 @@ margin-top: -15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
     font-size: 13px;
 }
-.FirstNum{
+footer{
     position: absolute;
-    margin-top: 2725px;
-    margin-left:15%;
+    background-color: rgb(80, 75, 75);
+    margin-top: 2650px;
+    width: 100%;
+    height: 100px;
+    left: 0px;
 }
-.FirstNumFirstLine,.SecondNumFirstLine,.TherdNumFirstLine{
-    font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-size: 14px;
-}
-.FirstNum_Number{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-left: -5%;
-  color: rgb(224, 169, 18);
-}
-.FirstNumFirstPar,.SecondNumFirstPar{
-    color: rgb(44, 43, 43);
-    margin-left: -25%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
-}
-.FirstNumSecondPar,.SecondNumSecondPar{
-    color: rgb(44, 43, 43);
-    margin-left: -24%;
-    margin-top: -10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
-  
-}
-.SecondNum{
+.linkFooter{
     position: absolute;
-    margin-top: 2725px;
-    margin-left:47%; 
-}
-
-.SecondNum_Number{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 0%;
-    color: rgb(224, 169, 18);
-}
-.TherdNum{
-    position: absolute;
-    margin-top: 2725px;
-    margin-left:79%;
-}
-.TherdNum_Number{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-left: -10%;
-  color: rgb(224, 169, 18);
-  font-size: 36px;
-}
-.TherdNumFirstPar{
-    color: rgb(44, 43, 43);
-    margin-left: -5%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
-margin-top: -10px;
-}
-.TherdNumSecondPar{
-    color: rgb(44, 43, 43);
-    margin-left: -3%;
-    margin-top: -10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
-
-}
-.empty{
-    position: absolute;
-    margin-top: 3000px;
-    color: transparent;
+    margin-left: 47%;
+    margin-top: 20px;
+    color: #ffe600;
+    text-decoration: #ffe600;
 }
