@@ -27,8 +27,8 @@
         <div class="card" >
             <img src="./Images/Icon/share.png" name="clean" class="clean_img">
             <h3 class="text2">
-                Je partage<p style="font-size: 15px;">sur mew réseaux sociaux</p>
-                <p style="font-size: 15px;"> FB,TW, Instagram, LinkedIn</p>
+                Je partage<p  class="s1">sur mew réseaux sociaux</p>
+                <p class="s1"> FB,TW, Instagram, LinkedIn</p>
             </h3>
             <button class="btn" onclick="show()" >Je partage</button>  
         </div>
@@ -42,7 +42,7 @@
      </div>
 
     </div>
-    <div class="footer">
+    <div class="footer" id="footer">
         <H1 style="font-size: 25px;color: rgb(105, 105, 105);">How Are we</H1>
         <div class="div5">
 
@@ -142,12 +142,16 @@
 <script>
 
 let tooltips=document.getElementById("tooltips")
+let footer=document.getElementById("footer")
+
 function show(){
     tooltips.style.display='block'
-    window.scrollTo(250, 510); 
+    footer.style.marginTop='90%'
+    
 }
 function hide(){
     tooltips.style.display='none'
+    footer.style.marginTop='50%'
 
 }
 function goF(){
