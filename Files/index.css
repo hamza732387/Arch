@@ -7,19 +7,9 @@
     top: -30px;
     width: 45%;
 }
-
-/* body{
-    background: url('./Images/Background/Header-image1.png');
-    background-repeat: no-repeat;
-    background-position-x: right;
-    margin: auto;
- } */
 button:hover{
 background-color: rgb(224, 169, 18);
 }
-/* header{
-    background-color: red;
-} */
 .Text_First{
 position: absolute;
 margin-top: 50px;
@@ -27,24 +17,16 @@ margin-top: 50px;
     color: rgb(255, 208, 0);
     font-size: 35px;
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-family: 'Open Sans',sans-serif;
+}
 
-}
-.Text_Second{
-    margin-top: 50px;
-    position: absolute;
-    margin-left: 14.5%;
-    font-size: 35px;
-    font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 .First_Title{
     position: absolute;
     margin-top: 175px;
     margin-left: 11.5%;
     font-size: 35px;
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Open Sans',sans-serif;
 
 }
 .First_Line_Par{
@@ -52,46 +34,47 @@ margin-top: 50px;
     position: absolute;
     margin-top: 235px;
     margin-left: 11.5%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Open Sans',sans-serif;
 }
 .Second_Line_Par{
     color: rgb(80, 78, 78);
     position: absolute;
     margin-top: 260px;
     margin-left: 11.5%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Open Sans',sans-serif;
 }
 .Therd_Line_Par{
     color: rgb(80, 78, 78);
     position: absolute;
     margin-top: 285px;
     margin-left: 11.5%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Open Sans',sans-serif;
 }
 .Forth_Line_Par{
     color: rgb(80, 78, 78);
     position: absolute;
     margin-top: 310px;
     margin-left: 11.5%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Open Sans',sans-serif;
 }
 .Fifth_Line_Par{
     color: rgb(80, 78, 78);
     position: absolute;
     margin-top: 335px;
     margin-left: 11.5%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Open Sans',sans-serif;
  
 }
 .GetStarted{
     position: absolute;
+   font-size:20px;
     margin-left: 11%;
     margin-top: 400px;
     height: 60px;
     width: 15.5%;
     background-color: rgb(80, 15, 100);
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans',sans-serif;
     box-shadow: 4px 4px 20px rgb(98, 98, 226);
 border-radius: 30px;
 border: none;
@@ -110,7 +93,7 @@ cursor: pointer;
     margin-left: 15%;
     font-size: 35px;
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Open Sans',sans-serif;
  
 }
 .Second_Line_Content{
@@ -119,7 +102,7 @@ cursor: pointer;
     margin-left: 14%;
     font-size: 35px;
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Open Sans',sans-serif;
   
 }
 .Therd_Line_Content{
@@ -128,7 +111,7 @@ cursor: pointer;
     margin-left: 35%;
     font-size: 35px;
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Open Sans',sans-serif;
 
 }
 .FirstList{
@@ -167,29 +150,30 @@ cursor: pointer;
     font-size: 20px;
     margin-left: 17%;
     margin-top: 0px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Open Sans',sans-serif;
 }
 .titleUnderDonateePicture{
     font-size: 20px;
     margin-left: 37%;
     margin-top: -15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Open Sans',sans-serif;
 }
 .FirstParUnderDonatePicture{
     margin-top: -10px;
     color: rgb(65, 63, 63);
     font-size: 13px;
     margin-left: 16%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Open Sans',sans-serif;
 }
 .ButFirstList{
+    font-size:20px;
     width: 56%;
     margin-top: 30px;
     margin-left: 23%;
     height: 50px;
     background-color: rgb(80, 15, 100);
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans',sans-serif;
     box-shadow: 4px 4px 20px rgb(98, 98, 226);
 border-radius: 30px;
 border: none;
@@ -205,24 +189,25 @@ cursor: pointer;
     font-size: 20px;
     margin-left: 10%;
     margin-top: -10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-family: 'Open Sans',sans-serif;
 }
 .FirstParUnderCompanyPicture{
     margin-top: 20px;
     color: rgb(65, 63, 63);
     font-size: 13px;
     margin-left: 16%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Open Sans',sans-serif;
  
 }
 .ButSecondList{
+    font-size:20px;
     width: 56%;
     margin-top: 35px;
     margin-left: 23%;
     height: 50px;
     background-color: rgb(80, 15, 100);
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans',sans-serif;
     box-shadow: 4px 4px 20px rgb(98, 98, 226);
 border-radius: 30px;
 border: none;
@@ -242,30 +227,31 @@ cursor: pointer;
     font-size: 20px;
     margin-left: 7%;
     margin-top: -5px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-family: 'Open Sans',sans-serif;
 }
 .FirstParUnderassociationPicture{
     margin-top: 10px;
     color: rgb(65, 63, 63);
     font-size: 13px;
     margin-left: 8%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Open Sans',sans-serif;
 }
 .SecondParUnderassociationPicture{
     margin-top: -10px;
     color: rgb(65, 63, 63);
     font-size: 13px;
     margin-left: 27%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Open Sans',sans-serif;
 }
 .ButTherdList{
+    font-size:20px;
     width: 56%;
     margin-top: 23px;
     margin-left: 23%;
     height: 50px;
     background-color: rgb(80, 15, 100);
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans',sans-serif;
     box-shadow: 4px 4px 20px rgb(98, 98, 226);
 border-radius: 30px;
 border: none;
@@ -285,14 +271,14 @@ cursor: pointer;
     margin-top: 1160px;
     margin-left: 33%;
     font-size: 40px;  
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Open Sans',sans-serif;
 }
 .SecondTitleAfterSignal{
     position: absolute;
     margin-top: 1210px;
     margin-left: 38%;
     font-size: 37px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Open Sans',sans-serif;
 }
 .ShareList{
     position: absolute;
@@ -300,26 +286,26 @@ cursor: pointer;
     margin-left: 32%;
 }
 .titleUnderSharePicture{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    font-family: 'Open Sans',sans-serif;
     margin-left: -15%;
 }
 .FirstParUnderSharePicture{
     color: rgb(36, 34, 34);
     margin-left: 8%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
-margin-top: -17px;
+    font-family: 'Open Sans',sans-serif;
+    margin-top: -17px;
 }
 .SecondParUnderSharePicture{
     color: rgb(36, 34, 34);
     margin-left: -6%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
-margin-top: -17px;
+    font-family: 'Open Sans',sans-serif;
+    margin-top: -17px;
 }
 .TherdParUnderSharePicture{
     color: rgb(36, 34, 34);
     margin-left: -25%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
-margin-top: -17px;
+    font-family: 'Open Sans',sans-serif;
+    margin-top: -17px;
 }
 .GiveTipList{
     position: absolute;
@@ -332,51 +318,25 @@ margin-top: -17px;
 }
 .titleUndertipPicture{
     margin-left: -15%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
-margin-top: 5px; 
+    font-family: 'Open Sans',sans-serif;
+    margin-top: 5px; 
 font-size: 30px;
 }
 .FirstParUndertipPicture{
     color: rgb(36, 34, 34);
     margin-left: -13%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
-margin-top: -5px;
+    font-family: 'Open Sans',sans-serif;
+    margin-top: -5px;
 }
 .SecondParUndertipPicture{
     color: rgb(36, 34, 34);
     margin-left: 2%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
-margin-top: -15px;
+    font-family: 'Open Sans',sans-serif;
+    margin-top: -15px;
 }
-.SendList{
-    position: absolute;
-    margin-top: 1300px;
-    margin-left: 70%;
-    width: 15%;
-}
-.mailPicture{
-    width: 140px;
-    margin-top: -10px;
-}
-.titleUndermailPicture{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
-margin-top: -10px; 
-font-size: 30px;
-margin-left: 25%;
-}
-.FirstParUndermailPicture{
-    color: rgb(36, 34, 34);
-    margin-left: 15%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
-margin-top: -5px;
-}
-.SecondParUndermailPicture{
-    color: rgb(36, 34, 34);
-    margin-left: 17%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
-margin-top: -15px;
-}
+
 .share{
+    font-size:20px;
     z-index: 50;
     width: 85%;
     margin-top: 10px;
@@ -384,7 +344,7 @@ margin-top: -15px;
     height: 50px;
     background-color: rgb(80, 15, 100);
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans',sans-serif;
     box-shadow: 4px 4px 20px rgb(98, 98, 226);
 border-radius: 30px;
 border: none;
@@ -392,27 +352,14 @@ outline: none;
 cursor: pointer; 
 }
 .Give{
+    font-size:20px;
     width: 100%;
     margin-top: 18px;
     margin-left: -13%;
     height: 50px;
     background-color: rgb(80, 15, 100);
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 4px 4px 20px rgb(98, 98, 226);
-border-radius: 30px;
-border: none;
-outline: none;
-cursor: pointer; 
-}
-.Send{
-    width: 75%;
-    margin-top: 18px;
-    margin-left: 10%;
-    height: 50px;
-    background-color: rgb(80, 15, 100);
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans',sans-serif;
     box-shadow: 4px 4px 20px rgb(98, 98, 226);
 border-radius: 30px;
 border: none;
@@ -487,29 +434,32 @@ border-radius: 30px;
 .FirstLineAftreCar{
     color: rgb(88, 86, 86);
     margin-left: 12%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
-margin-top: 15px;
+    font-family: 'Open Sans',sans-serif;
+    margin-top: 15px;
 font-size: 22px;
+}
+.vr{
+    font-size: 25px;
 }
 .SecondLineAftreCar{
     color: rgb(88, 86, 86);
     margin-left: 30%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
-margin-top: -13px;  
+    font-family: 'Open Sans',sans-serif;
+    margin-top: -13px;  
 font-size: 22px;
 }
 .TherdLineAftreCar{
     color: rgb(121, 119, 119);
     margin-left: 23%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
-margin-top: 0px;  
+    font-family: 'Open Sans',sans-serif;
+    margin-top: 0px;  
   font-size: 16px;
 }
 .ForthLineAftreCar{
     color: rgb(121, 119, 119);
     margin-left: 24%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
-margin-top: -15px;  
+    font-family: 'Open Sans',sans-serif;
+    margin-top: -15px;  
   font-size: 16px;
 }
 .Email_To{
@@ -520,7 +470,7 @@ margin-top: -15px;
     position: absolute;
     margin-top: 2000px;
     margin-left: 40%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    font-family: 'Open Sans',sans-serif;
 }
 .SophianPictureList{
     position: absolute;
@@ -544,12 +494,12 @@ margin-top: -15px;
 }
 .titleUndesophianPicture{
     margin-left: 10%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    font-family: 'Open Sans',sans-serif;
     font-size: 13px;
 }
 .titleUndeBasharPicture{
     margin-left: -6%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    font-family: 'Open Sans',sans-serif;
     font-size: 13px;
 
 }
@@ -557,7 +507,7 @@ margin-top: -15px;
     color: rgb(36, 34, 34);
     margin-left: 0%;
     margin-top: -7px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    font-family: 'Open Sans',sans-serif;
     font-size: 13px;
 }
 .AntoinePictureList{
@@ -586,21 +536,21 @@ margin-top: -15px;
 }
 .titleUndeAntoinePicture{
     margin-left: 3%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    font-family: 'Open Sans',sans-serif;
     font-size: 13px;
 }
 .FirstParUndeAntoinePicture{
     color: rgb(36, 34, 34);
     margin-left: -9%;
     margin-top: -7px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    font-family: 'Open Sans',sans-serif;
     font-size: 13px;
 }
 .FirstParUndeHamzaPicture{
     color: rgb(36, 34, 34);
     margin-left: -25%;
     margin-top: -7px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    font-family: 'Open Sans',sans-serif;
     font-size: 13px;
 }
 .YohannPictureList{
@@ -619,28 +569,886 @@ margin-top: -15px;
 }
 .titleUndeYohannPicture{
     margin-left: 0%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    font-family: 'Open Sans',sans-serif;
     font-size: 13px;
 }
 .FirstParUndeYohannPicture{
     color: rgb(36, 34, 34);
     margin-left: -18%;
     margin-top: -7px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    font-family: 'Open Sans',sans-serif;
+    font-size: 13px;
+}
+.FirstParUndeYohannePicture{
+    color: rgb(36, 34, 34);
+    margin-left: -18%;
+    margin-top: -7px;
+    font-family: 'Open Sans',sans-serif;
     font-size: 13px;
 }
 footer{
     position: absolute;
     background-color: rgb(80, 75, 75);
     margin-top: 2650px;
-    width: 100%;
-    height: 100px;
+    width: 99.2%;
+    /* height: 10px; */
     left: 0px;
+    padding: 5px;
 }
 .linkFooter{
-    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+
     margin-left: 47%;
     margin-top: 20px;
     color: #ffe600;
     text-decoration: #ffe600;
 }
+@media only screen and (max-width: 800px){
+    .Text_First{
+        font-size: 28px; 
+        margin-top: 30px;
+        margin-left: 9%;
+    }
+    .First_Title{
+        margin-top: 110px;
+        font-size: 20px;
+        margin-left: 9%;
+    }
+    .First_Line_Par,.Second_Line_Par,.Therd_Line_Par,.Forth_Line_Par,.Fifth_Line_Par{
+        font-size: 12px;
+        margin-left: 9%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .First_Line_Par{
+        margin-top: 140px;
+    }
+    .Second_Line_Par{
+        margin-top: 155px;
+    }
+    .Therd_Line_Par{
+        margin-top: 170px;
+    }
+    .Forth_Line_Par{
+        margin-top: 185px;
+    }
+    .Fifth_Line_Par{
+        margin-top: 200px;
+    }
+    .GetStarted{
+        font-size:15px;
+        margin-left: 9%;
+        margin-top: 240px;
+        height: 45px;
+        width: 15.5%;
+    }
+    .picture_border{
+        margin-top:325px;
+        width: 9%;
+    }
+    .First_Line_Content{
+        margin-top: 325px;
+        margin-left: 15%;
+        font-size: 22px;
+    }
+    .Second_Line_Content{
+        margin-top: 350px;
+        margin-left: 15%;
+        font-size: 22px;
+    }
+    .Therd_Line_Content{
+        margin-top: 375px;
+        margin-left: 35%;
+        font-size: 22px;
+    }
+    .FirstList{
+        width: 25%;
+        margin-top:420px;
+        margin-left: 14%;
+        height: 185px;
+    }
+    .SecondList{
+        width: 25%;
+        margin-top:420px;
+        margin-left: 38%;
+        height: 185px;
+    }
+    .TherdList{
+        width: 25%;
+        margin-top:420px;
+        margin-left: 62%;
+        height: 185px; 
+    }
+    .donatePicture,.CompanyPicture{
+        height: 115px; 
+    }
+    .titleUnderDonatePicture,.titleUnderDonateePicture,.titleUnderCompanyPicture{
+        font-size: 14px;
+        margin-top: -10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .FirstParUnderDonatePicture{
+        font-size: 10px;
+        margin-left: 6%;
+        margin-top: -20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .ButFirstList,.ButSecondList,.ButTherdList{
+        font-size:15px;
+        margin-top:-2px;
+        height: 35px;
+    }
+    .FirstParUnderCompanyPicture{
+        font-size: 10px;
+        margin-left: 10%;
+        margin-top: 0px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .ButSecondList{
+        margin-top: 15px;
+    }
+    .titleUnderassociationPicture{
+        font-size: 14px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .FirstParUnderassociationPicture{
+        font-size: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .SecondParUnderassociationPicture{
+        margin-left: 27%;
+        font-size: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .Signal{
+        margin-top: 675px;
+        font-size: 60px;
+    }
+    .FirstTitleAfterSignal{
+        margin-top: 725px;
+        font-size: 27px;  
+    }
+    .SecondTitleAfterSignal{
+        font-size: 27px;
+        margin-top: 755px;
+    }
+    .ShareList{
+        margin-top: 810px;
+        margin-left: 25%;
+    }.sharePicture,.tipPicture{
+        width: 65px;
+    }
+    .titleUnderSharePicture{
+        font-size: 24px;
+        margin-left: -14%;
+    }
+    .FirstParUnderSharePicture,.SecondParUnderSharePicture,.TherdParUnderSharePicture{
+    font-size: 14px;
+    margin-top: -12px;
+    }
+    .GiveTipList{
+        margin-top: 810px;
+        margin-left: 65%;
+    }
+    .titleUndertipPicture{
+        font-size: 24px;
+        margin-left: -20%;
+        margin-top: 22px; 
+    }
+    .FirstParUndertipPicture{
+        margin-left: -25%;
+    }
+    .SecondParUndertipPicture{
+        margin-left: -6%;
+    }
+    .Give{
+        margin-left: -22%;
+    }
+    .bottom{
+        min-width:75%;
+        font-size:13px;
+        margin-top: 1060px;
+    }
+    .icon_close{
+        margin-left: 88%;
+    }
+    .CarListEmail{
+        margin-top: 1100px;
+        width: 80%;
+        margin-left: 12%;
+        height: 225px; 
+    }
+    .CarPicture{
+        width: 100px;
+        margin-left: 45%;
+    }
+    .FirstLineAftreCar,.SecondLineAftreCar{
+        margin-left: 16%;
+        font-size: 15px;
+    }
+    .vr{
+    font-size: 20px;
+    }
+    .SecondLineAftreCar{
+        margin-left: 35%;
+    }
+    .TherdLineAftreCar,.ForthLineAftreCar{
+        font-size: 13px; 
+    }
+    .ForthLineAftreCar{
+        margin-top: -8px;  
+    }
+    .borderPictureEmail{
+        clip: rect(360px 500px 1000px 0px);
+        height: 595px;
+    }
+    .Who_We{
+        margin-top: 1400px;
+        font-size: 28px;
+        margin-left: 35%;
+    }
+    .SophianPictureList{
+        margin-top: 1450px;
+        margin-left:8%;
+    }
+    .AntoinePictureList{
+        margin-top: 1450px;
+        margin-left:42%;
+    }
+    .HamzaPictureList{
+        margin-top: 1650px;
+        margin-left:8%;
+    }
+    .BasharPictureList{
+        margin-top: 1650px;
+        margin-left:75%;
+    }
+    .HalaaPictureList{
+        margin-left:8%;
+        margin-top: 1850px;
+    }
+    .PashuPictureList{
+        margin-left:42%;
+        margin-top: 1850px;
+    
+    }
+    .YohannPictureList{
+        margin-top: 1450px;
+        margin-left:75%;
+    }
+    .RefaeePictureList{
+        margin-top: 1650px;
+        margin-left:42%;
+    }
+    footer{
+        margin-top: 2100px;
+    }
+    
+    }
+    @media only screen and (max-width: 600px){
+        .HeaderPicture{
+            position: absolute;
+            margin-left: 53.3%;
+            top: -30px;
+            width: 45%;
+        }
+        .Text_First{
+            font-size: 32px; 
+            margin-top: 35px;
+            margin-left: 17%;
+        }
+        .First_Title{
+            margin-top: 125px;
+            font-size: 16px;
+            margin-left: 9%;
+        }
+        .First_Line_Par,.Second_Line_Par,.Therd_Line_Par,.Forth_Line_Par,.Fifth_Line_Par{
+            font-size: 12px;
+            margin-left: 9%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        .First_Line_Par{
+            margin-top: 165px;
+        }
+        .Second_Line_Par{
+            margin-top: 180px;
+        }
+        .Therd_Line_Par{
+            margin-top: 195px;
+        }
+        .Forth_Line_Par{
+            margin-top: 210px;
+        }
+        .Fifth_Line_Par{
+            margin-top: 225px;
+        }
+        .GetStarted{
+            font-size:13px;
+            margin-left: 9%;
+            margin-top: 265px;
+            height: 30px;
+            width: 15.5%;
+        }
+        .First_Line_Content{
+            margin-top: 325px;
+            margin-left: 15%;
+            font-size: 16px;
+        }
+        .Second_Line_Content{
+            margin-top: 345px;
+            margin-left: 15%;
+            font-size: 16px;
+        }
+        .Therd_Line_Content{
+            margin-top: 370px;
+            margin-left: 35%;
+            font-size: 16px;
+        }
+        .FirstList{
+            width: 32%;
+            margin-top:420px;
+            margin-left: 14%;
+            height: 185px;
+        }
+        .SecondList{
+            width: 32%;
+            margin-top:420px;
+            margin-left: 58%;
+            height: 185px;
+        }
+        .TherdList{
+            width: 35%;
+            margin-top:670px;
+            margin-left: 37%;
+            height: 185px; 
+        }
+        .FirstParUnderDonatePicture{
+            font-size: 11px;
+            margin-left: 6%;
+            margin-top: -20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        .FirstParUnderCompanyPicture{
+            font-size: 11px;
+            margin-left: 10%;
+            margin-top: 0px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        .FirstParUnderassociationPicture{
+            font-size: 11px;
+            margin-left: 2%;
+            margin-top: 0px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        .SecondParUnderassociationPicture{
+            margin-left: 27%;
+            font-size: 11px;
+            margin-top: -10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        .Signal{
+            margin-top: 925px;
+            font-size: 60px;
+        }
+        .FirstTitleAfterSignal{
+            margin-top: 965px;
+            font-size: 24px;  
+        }
+        .SecondTitleAfterSignal{
+            font-size: 24px;
+            margin-top: 990px;
+        }
+        .ShareList{
+            margin-top: 1050px;
+            margin-left: 25%;
+        }
+        .GiveTipList{
+            margin-top: 1050px;
+            margin-left: 65%;
+        }
+        .share{
+            font-size:13px;
+            height: 35px;
+        }
+        .Give{
+            font-size:13px;
+            height: 35px;
+            margin-top: 19px;  
+        }
+        .CarListEmail{
+            margin-top: 1325px;
+            width: 80%;
+            margin-left: 10%;
+            height: 225px; 
+        }
+        .bottom{
+            min-width:55%;
+            font-size:11px;
+            margin-top: 1280px;
+            left:35%;
+        }
+        .icon_close{
+            margin-left: 80%;
+        }
+        .CarPicture{
+            width: 75px;
+            margin-top: 22px;
+            margin-left: 45%;
+        }
+        .vr{
+            position: absolute;
+            font-size: 20px;
+            margin-top: 20px;
+            margin-left: -50%;
+            }
+            .FirstLineAftreCar{
+                margin-left: 25%;
+                font-size: 15px;
+            }
+            .SecondLineAftreCar{
+                margin-top: 27px;
+                margin-left: 28%;
+                font-size: 15px;
+            }
+            .TherdLineAftreCar{
+                font-size: 13px; 
+                margin-left: 13%;
+            }
+            .ForthLineAftreCar{
+                font-size: 13px; 
+                margin-top: -8px;  
+                margin-left: 14%;
+            }
+            .Who_We{
+                margin-top: 1600px;
+                font-size: 28px;
+                margin-left: 35%;
+            }
+            .SophianPictureList{
+                margin-top: 1650px;
+                margin-left:20%;
+            }
+            .AntoinePictureList{
+                margin-top: 1650px;
+                margin-left:65%;
+            }
+            .HamzaPictureList{
+                margin-top: 2050px;
+                margin-left:20%;
+            }
+            .BasharPictureList{
+                margin-top: 1850px;
+                margin-left:65%;
+            }
+            .HalaaPictureList{
+                margin-left:20%;
+                margin-top: 2250px;
+            }
+            .PashuPictureList{
+                margin-left:65%;
+                margin-top: 2250px;
+            
+            }
+            .YohannPictureList{
+                margin-top: 1850px;
+                margin-left:20%;
+            }
+            .RefaeePictureList{
+                margin-top: 2050px;
+                margin-left:65%;
+            }
+            footer{
+                margin-top: 2450px;
+                width: 97%;
+            }
+            .FirstParUndeYohannePicture{
+                margin-left: -27%;
+            }
+
+    }
+    @media only screen and (max-width: 380px){
+        .HeaderPicture{
+            position: absolute;
+            margin-left: 56.7%;
+            top: 0px;
+            width: 40%;
+            
+        }
+        .Text_First{
+            font-size: 26px; 
+            margin-top: 15px;
+            margin-left: 9%;
+        }
+        .First_Title{
+            margin-top: 85px;
+            font-size: 11px;
+            margin-left: 9%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+        }
+        .First_Line_Par,.Second_Line_Par,.Therd_Line_Par,.Forth_Line_Par,.Fifth_Line_Par{
+            font-size: 9px;
+            margin-left: 9%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+        }
+        .First_Line_Par{
+            margin-top: 115px;
+        }
+        .Second_Line_Par{
+            margin-top: 130px;
+        }
+        .Therd_Line_Par{
+            margin-top: 145px;
+        }
+        .Forth_Line_Par{
+            margin-top: 160px;
+        }
+        .Fifth_Line_Par{
+            margin-top: 175px;
+        }
+        .GetStarted{
+            font-size:10px;
+            margin-left: 9%;
+            margin-top: 200px;
+            height: 30px;
+            width: 20%;
+        }
+        .First_Line_Content{
+            margin-top: 250px;
+            margin-left: 12%;
+            font-size: 11px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+        }
+        .Second_Line_Content{
+            margin-top: 265px;
+            margin-left: 12%;
+            font-size: 11px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+        }
+        .Therd_Line_Content{
+            margin-top: 280px;
+            margin-left: 35%;
+            font-size: 11px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+        }
+        .picture_border{
+            margin-top:240px;
+            width: 9%;
+        }
+        .FirstList{
+            width: 35%;
+            margin-top:305px;
+            margin-left: 11%;
+            height: 135px;
+        }
+        .SecondList{
+            width: 35%;
+            margin-top:305px;
+            margin-left: 50%;
+            height: 135px;
+        }
+        .TherdList{
+            width: 40%;
+            margin-top:475px;
+            margin-left: 30%;
+            height: 135px; 
+        }
+        .donatePicture,.CompanyPicture{
+            height: 85px; 
+        }
+        .titleUnderDonatePicture,.titleUnderDonateePicture,.titleUnderCompanyPicture{
+            font-size: 10px;
+            margin-top: -10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+        }
+        .FirstParUnderDonatePicture{
+            font-size: 6px;
+            margin-left: 6%;
+            margin-top: -22px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+        }
+        .FirstParUnderCompanyPicture{
+            font-size: 8px;
+            margin-left: 10%;
+            margin-top: 0px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+        }
+        .FirstParUnderassociationPicture{
+            font-size: 8px;
+            margin-left: 2%;
+            margin-top: -5px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+        }
+        .SecondParUnderassociationPicture{
+            margin-left: 27%;
+            font-size: 8px;
+            margin-top: -5px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+        }
+        .titleUnderassociationPicture{
+            font-size: 10px;
+            margin-top: -15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+        }
+        .ButSecondList{
+            margin-top: -3px;
+            font-size: 10px;
+            height: 30px;
+        }
+        .ButFirstList{
+            margin-top: -10px;
+            font-size: 10px;
+            height: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+        }
+        .ButTherdList{
+            margin-top: -10px;
+            font-size: 10px;
+            height: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+        }
+        .Signal{
+            margin-top: 675px;
+            font-size: 60px;
+            margin-left: 45%;
+        }
+        .FirstTitleAfterSignal{
+            margin-top: 725px;
+            font-size: 24px;  
+            margin-left: 20%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+        }
+        .SecondTitleAfterSignal{
+            font-size: 24px;
+            margin-top: 750px;
+            margin-left: 28%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+        }
+        .ShareList{
+            margin-top: 800px;
+            margin-left: 10%;
+        }
+        .GiveTipList{
+            margin-top: 800px;
+            margin-left: 65%;
+        }
+        .sharePicture,.tipPicture{
+            width: 45px;
+            margin-left: 10%;
+        }
+        .titleUnderSharePicture{
+            font-size: 15px;
+            margin-left: -0%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+        }
+        .FirstParUnderSharePicture,.SecondParUnderSharePicture,.TherdParUnderSharePicture{
+            font-size: 12px;
+            margin-top: -5px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+            }
+            .SecondParUnderSharePicture,.TherdParUnderSharePicture{
+                margin-top: -15px;  
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+            }
+            .titleUndertipPicture{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+                font-size: 15px;
+                margin-left: -20%;
+                margin-top: 22px; 
+            }
+            .FirstParUndertipPicture{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+                font-size: 12px;
+                margin-left: -25%;
+            }
+            .SecondParUndertipPicture{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+                margin-top: -8px; 
+                font-size: 12px;
+                margin-left: -6%;
+            }
+            .share{
+                width: 60%;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+                margin-top: -10px;
+            font-size: 10px;
+            height: 30px;
+            margin-left: -5%;
+            }
+            .Give{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+                width: 75%;
+                margin-top: -10px;
+            font-size: 10px;
+            height: 30px;
+            margin-left: -5%; 
+            }
+            .bottom{
+                min-width:80%;
+                font-size:11px;
+                margin-top: 965px;
+                left:45%;
+            }
+            .icon_close{
+                margin-left: 80%;
+            }
+        .CarListEmail{
+            margin-top: 1000px;
+            width: 90%;
+            margin-left: 2%;
+            height: 225px; 
+        }
+        .CarPicture{
+            width: 75px;
+            margin-top: 22px;
+            margin-left: 45%;
+        }
+        .vr{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+            position: absolute;
+            font-size: 20px;
+            margin-top: 20px;
+            margin-left: -75%;
+            }
+            .FirstLineAftreCar{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+                margin-left: 13%;
+                font-size: 15px;
+            }
+            .SecondLineAftreCar{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+                margin-top: 27px;
+                margin-left: 14%;
+                font-size: 15px;
+            }
+            .TherdLineAftreCar{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+                font-size: 11px; 
+                margin-left: 13%;
+            }
+            .ForthLineAftreCar{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+                font-size: 11px; 
+                margin-top: -8px;  
+                margin-left: 14%;
+            }
+            .Who_We{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+                margin-top: 1275px;
+                font-size: 20px;
+                margin-left: 23%;
+            }
+            .SophianPictureList{
+                width: 40%;
+                margin-top: 1325px;
+                margin-left:10%;
+            }
+            .AntoinePictureList{
+                width: 40%;
+                margin-top: 1325px;
+                margin-left:60%;
+            }
+            .HamzaPictureList{
+                width: 40%;
+                margin-top: 1600px;
+                margin-left:10%;
+            }
+            .BasharPictureList{
+                width: 40%;
+                margin-top: 1460px;
+                margin-left:60%;
+            }
+            .HalaaPictureList{
+                width: 40%;
+                margin-left:10%;
+                margin-top: 1735px;
+            }
+            .PashuPictureList{
+                width: 40%;
+                margin-left:60%;
+                margin-top: 1735px;
+            }
+            .YohannPictureList{
+                width: 40%;
+                margin-top: 1460px;
+                margin-left:10%;
+            }
+            .RefaeePictureList{
+                width: 40%;
+                margin-top: 1600px;
+                margin-left:60%;
+            }
+            .FirstParUndeYohannePicture{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                margin-left: -27%;
+            }
+            .sophianPicture,.AntoinePicture,.YohannPicture,.HamzaPicture{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+                width: 75px;
+                height: 70px;
+            }
+            .titleUndesophianPicture,.titleUndeAntoinePicture,.titleUndeYohannPicture,.titleUndeBasharPicture{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+                font-size: 12px;
+            }
+            .FirstParUndesophianPicture,.FirstParUndeAntoinePicture,.FirstParUndeYohannPicture,.FirstParUndeHamzaPicture,.FirstParUndeYohannePicture{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: -5px;
+                font-size: 8px;
+            }
+            .titleUndesophianPicture{
+                margin-left: -7%;
+            }
+            footer{
+                margin-top:1900px;
+                width: 95%;
+            }
+            .linkFooter{
+        
+                margin-left: 35%;
+                margin-top: 20px;
+                color: #ffe600;
+                text-decoration: #ffe600;
+            }
+        }
