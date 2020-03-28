@@ -617,3 +617,91 @@ height: 120px;
     top: 150px;
   }
 }
+@media screen and (width: 1024px) {
+  .tooltip .bottom  {
+    min-width:550px;
+    top:-10px;
+    left:-95px;
+    transform:translate(-50%, 0);
+    padding:10px 20px;
+    color:#000000;
+    background-color:rgb(255, 255, 255);
+    font-weight:normal;
+    font-size:13px;
+    border-radius:8px;
+    position:absolute;
+    z-index:99999999;
+    box-sizing:border-box;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+    display:none;
+    margin-top: 80px;
+}
+.tooltip .bottom p{
+  font-size:15px;
+}
+.tooltip .bottom i{
+  left: 430px;
+}
+
+  .card2{
+    top: 80px;
+   width: 170px;
+   height: 230px;
+    left: 650px;
+  }
+  .clean_img{
+    width: 70px;
+    height: 70px;
+  }
+  .btn{
+    width: 120px;
+    height: 40px;
+  }
+  .wave_img{
+    height: 200px;
+  }
+  .donate_img{
+    left: 140px;
+    width: 150px;
+    height: 150px;
+  }
+  .title{
+    top: -190px;
+    left: 100px;
+  }
+  .text1{
+    left: 300px;
+    font-size: 15px;
+    top: 150px;
+  }
+}
+@media screen and (width: 1280px) {
+.card2{
+  left: 900px;
+}
+  .tooltip .bottom  {
+    min-width:550px;
+    top:-10px;
+    left:-95px;
+    transform:translate(-50%, 0);
+    padding:10px 20px;
+    color:#000000;
+    background-color:rgb(255, 255, 255);
+    font-weight:normal;
+    font-size:13px;
+    border-radius:8px;
+    position:absolute;
+    z-index:99999999;
+    box-sizing:border-box;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+    display:none;
+    margin-top: 80px;
+}
+.tooltip .bottom p{
+  font-size:15px;
+}
+.tooltip .bottom i{
+  left: 430px;
+}
+
+}
