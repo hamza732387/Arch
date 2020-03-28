@@ -779,6 +779,9 @@ footer{
     footer{
         margin-top: 700px;
     } 
+    .borderPictureEmail{
+        width: 27%;
+    }
 }
     
     @media only screen and (max-width: 600px){
@@ -803,6 +806,7 @@ footer{
         .GetStarted{
             font-size:13px;
             margin-left: 9%;
+            width: 80%;
         }
         .First_Line_Content{
             margin-top: -40px;
@@ -923,11 +927,15 @@ footer{
             }
             .HamzaPictureList{
                 margin-top: 420px;
-                margin-left:5%;
+                margin-right: 70%;
             }
+      
             .BasharPictureList{
                 margin-top: 210px;
                 margin-left:60%;
+            }
+            .YohannPicture{
+                margin-left: -15%;
             }
             .HalaaPictureList{
                 margin-left:15%;
@@ -952,6 +960,9 @@ footer{
             }
             .FirstParUndeYohannePicture{
                 margin-left: -27%;
+            }
+            .borderPictureEmail{
+                width: 39%;
             }
 
     }
@@ -1183,6 +1194,9 @@ footer{
                 font-size: 13px; 
                
             }
+            .borderPictureEmail{
+                width: 42%;
+            }
 
             .Who_We{
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -1204,7 +1218,7 @@ footer{
             .HamzaPictureList{
                 width: 40%;
                 margin-top: 840px;
-                margin-left:25%;
+                margin-left:22%;
             }
             .BasharPictureList{
                 width: 40%;
@@ -1229,7 +1243,7 @@ footer{
             .RefaeePictureList{
                 width: 40%;
                 margin-top: 1050px;
-                margin-left:27%;
+                margin-left:30%;
             }
 
        
