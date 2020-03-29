@@ -443,6 +443,11 @@ font-size: 22px;
     width: 125px;
     height:115px;
 }
+.RefaeePicture{
+    border-radius: 40% 40% 40%  ;
+    width: 125px;
+    height:115px;
+}
 .basharPicture{
     border-radius: 40% 40% 40%  ;
     width: 125px;
@@ -1246,47 +1251,64 @@ margin-top: 35px;
                
             }
             .SophianPictureList{
-                width: 40%;
-                margin-top: 0px;
-                margin-left:27%;
+                width: 100%;
+                left: 0;
+                margin-left: 0;
             }
             .AntoinePictureList{
-                width: 40%;
                 margin-top: 210px;
-                margin-left:27%;
+                width: 100%;
+                left: 0;
+                margin-left: 0;
             }
             .HamzaPictureList{
-                width: 40%;
+                width: 100%;
                 margin-top: 840px;
-                margin-left:22%;
+                left: 0;
+                margin-left: 0;
             }
-            .BasharPictureList{
-                width: 40%;
-                margin-top: 630px;
-                margin-left:27%;
-            }
-            .HalaaPictureList{
-                width: 40%;
-                margin-top: 1260px;
-                margin-left:27%;
-            }
-            .PashuPictureList{
-                width: 40%;
-                margin-top: 1470px;
-                margin-left:27%;
-            }
-            .YohannPictureList{
-                width: 40%;
-                margin-top: 420px;
+            .HamzaPicture{
                 margin-left:25%;
             }
-            .RefaeePictureList{
-                width: 40%;
-                margin-top: 1050px;
-                margin-left:30%;
+            .BasharPictureList{
+                width: 100%;
+                margin-top: 630px;
+                left: 0;
+                margin-left: 0;
             }
-
-       
+            .HalaaPictureList{
+                width: 100%;
+                margin-top: 1260px;
+                left: 0;
+                margin-left: 0;
+            }
+            .PashuPictureList{
+                width: 100%;
+                margin-top: 1470px;
+                left: 0;
+                margin-left: 0;
+            }
+            .YohannPictureList{
+                width: 100%;
+                margin-top: 420px;
+                left: 0;
+                margin-left: 0;
+            }
+            .YohannPicture{
+                margin-left: -5%;
+            }
+            .RefaeePictureList{
+                width: 100%;
+                margin-top: 1050px;
+                left: 0;
+                margin-left: 0;
+            }
+            .RefaeePicture{
+                margin-left:38%;
+            }
+       .FirstParUndeYohannePicture{
+           margin-left: 0%;
+       }
             footer{
                 margin-top:1850px;
                 width: 97%;
@@ -1313,6 +1335,15 @@ margin-top: 35px;
       margin-bottom: -25px;  
     }
 }
+@media only screen and (max-width: 360px){
+    .RefaeePicture{
+        margin-left:30%;
+    }
+    .HamzaPicture{
+        margin-left:15%;
+    }
+}
+
 @media only screen and (max-width: 348px){
     .ShareList{
         margin-top: 0px;
