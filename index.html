@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Index</title>
+</head>
+<body>
+    <header>
+        <img src="./Images/Background/Header-image1.png" class="HeaderPicture">
+<!-- first title in page -->
+<span class="Text_First">#ARCH</span>
+
+<!-- second title in page  -->
+<div class="headerContent">
+<h1 class="First_Title">Nous avons besoin de vous</h1>
+
+<!-- the text after the second title -->
+<p class="First_Line_Par">Un groupe d’étudiants syriens, réfugiés en Jordanie, accom-pagné par l’ONG française CHAMS, lancent le mouvement «ARCH »
+     afin d’organiser la distribution à grande échelled’or dinateurs et briser l’isolement digital des populations défa-vorisées en confinement.</p>
+
+<!-- the button in header get started -->
+<a href="#Scroll"> <button class="GetStarted">Commencez</button></a>
+</div>
+    </header>
+
+
+    <div class="contener">
+        <!-- the border picture and the text next to it  -->
+<img src="./Images/Background/wave-border.png" class="picture_border">
+<div class="textcontent">
+<h1 class="First_Line_Content">Avec le support de notre communauté et de nos partenaires, nous allons améliorer l’accès à l’éducation à distance pour des millions de personnes</h1>
+<!-- <h1 class="Second_Line_Content"></h1>
+<h1 class="Therd_Line_Content" id="Scroll"></h1> -->
+</div>
+<!-- the first list next to the border picture  -->
+<div class="AllList" id="Scroll">
+<div class="FirstList">
+<img src="./Images/Illustration/donate-1.png" class="donatePicture">
+    <h1 class="titleUnderDonatePicture">Vous êtes un citoyen <br> engagé</h1>
+   <br> <p class="FirstParUnderDonatePicture">Don d’un ou plusieurs ordinateur</p>
+<a href="donate.html"> <button class="ButFirstList" onclick="Set_Computer_LocalStorge()">Je contribue</button> </a>
+</div>
+
+<!-- the second list next to the border picture  -->
+<div class="SecondList">
+    <img src="./Images/Illustration/Company.png" class="CompanyPicture">
+    <h1 class="titleUnderCompanyPicture">Vous êtes une entreprise</h1>
+    <p class="FirstParUnderCompanyPicture">Don d’un ou plusieurs ordinateur</p>
+
+    <a href="donate.html"><button class="ButSecondList" onclick="Set_Company_LocalStorge()">Je contribue</button></a>
+    </div>
+
+    <!-- the therd list next to the border picture  -->
+    <div class="TherdList">
+        <img src="./Images/Illustration/association.png" class="CompanyPicture">
+        <h1 class="titleUnderassociationPicture">Vous êtes une association</h1>
+        <p class="FirstParUnderassociationPicture">Vous souhaitez distribuer des ordinateurs dans votre quartier</p>
+    
+    <a href="donate.html"><button class="ButTherdList" onclick="Set_Organism_LocalStorge()">Je contribue</button></a>
+        </div>
+    </div>
+        <!-- <div class="rightSite"></div> -->
+
+
+        <!-- the title after the Signal -->
+        <h1 class="Signal">‘‘</h1>
+        <h1 class="FirstTitleAfterSignal">" J’aime votre initiative <br> et je veux aider " </h1>
+
+        <!-- the share list  -->
+        <div class="lists2">
+   <div class="ShareList">
+    <img src="./Images/Icon/share.png" class="sharePicture">
+    <h1 class="titleUnderSharePicture">Je partage</h1>
+    <p class="FirstParUnderSharePicture">sur mes <br>réseaux sociaux <br>FB, TW, Instagram, LinkedIn</p>
+  <button class="share" onclick="show()"> Je partage </button>
+</div>
+
+<!-- the give tip list  -->
+   <div class="GiveTipList">
+    <img src="./Images/Icon/tip.png" class="tipPicture">
+    <h1 class="titleUndertipPicture">Je fais un don</h1>
+    <p class="FirstParUndertipPicture">Je contribue et mon don est defiscalisé</p>
+    <button class="Give" onclick="Move_To_Adrress()"> Je donne </button>  
+</div>
+
+<!-- for facebook and twitter -->
+<div class="bottom" id="tooltips">
+    <b style="margin-bottom:20px;color: darkgray;">SHARE</b>
+    <div class="link"><span>
+
+          <!-- Facebook -->
+        
+             <img class="icon" src="./Images/Icon/facebook.png" onclick="goFacebook()">  
+        <span class="label"><b onclick="goFacebook()">Share on Facebook</b></span>  </div>
+
+
+        <!--Twitter -->
+    <div class="link">
+        
+              <img class="icon" src="./Images/Icon/twitter.png" onclick="goTwitter()"> 
+        <span class="label"><b onclick="goTwitter()">Share on Twitter</b></span> </div>
+
+        <!-- for close -->
+    <div class="link" onclick="hide()"><img class="icon_close" src='./Images/Icon/close.jpg'></div>
+ </div>
+</div>
+
+<!-- for send email and the car picture  -->
+<div class="CarListEmail">
+    <img src="./Images/Background/wave-border.png" class="borderPictureEmail">
+<img src="./Images/Icon/car.png" class="CarPicture">
+<p class="FirstLineAftreCar">L’opération <span style="color: rgb(255, 187, 0);">ARCH</span>
+      va pouvoir financer les <span style="font-weight: bold;color: rgb(31, 32, 32);" class="vr">100 premières livraisons.
+    </span> Aidez nous à trouver un transporteur.</p>
+    <div class="Emailtext">
+<p class="TherdLineAftreCar">Envoyer nous un mail à <a href="mailto:contact@chamsngo.org" class="Email_To">contact@chamsngo.org</a>  si vous connaissez <br> un transporteur qui serait prêt à nous aider dans cette initiative.</p>
+</div>
+</div>
+
+<!-- Who We Are information  -->
+<h1 class="Who_We">Qui sommes nous ?</h1>
+
+<!-- sofiane picture  -->
+<div class="AllPicture">
+<div class="SophianPictureList">
+    <img src="./Images/person/sophian.png" class="sophianPicture">
+    <h1 class="titleUndesophianPicture">SOFIANE AMMAR</h1>
+    <p class="FirstParUndesophianPicture">FOUNDER OF CHAMS</p>
+</div>
+
+<!-- Antoine Picture -->
+<div class="AntoinePictureList">
+    <img src="./Images/person/antoino.png" class="AntoinePicture">
+    <h1 class="titleUndeAntoinePicture">ANTOINE MEUNIER</h1>
+    <p class="FirstParUndeAntoinePicture">CO-FOUNDER OF CHAMS</p>
+</div>
+
+<!-- Yohann Picture -->
+<div class="YohannPictureList">
+    <img src="./Images/person/Yohann.png" class="YohannPicture">
+    <h1 class="titleUndeYohannPicture">YOHANN DUPASQUIER</h1>
+    <p class="FirstParUndeYohannPicture">BOARD AND CAMPAIGN PRESIDENT</p>
+</div>
+
+<!-- Bashar Picture -->
+<div class="BasharPictureList">
+    <img src="./Images/person/bashar.jpg" class="basharPicture">
+    <h1 class="titleUndeBasharPicture">BASHAR ABDUL QAIYUME</h1>
+    <p class="FirstParUndesophianPicture">LEAD TEACHER (AMMAN)</p>
+</div>
+
+<!-- Hamza Picture -->
+<div class="HamzaPictureList">
+    <img src="./Images/person/hamzah.png" class="HamzaPicture">
+    <h1 class="titleUndeAntoinePicture">HAMZA RASHED</h1>
+    <p class="FirstParUndeHamzaPicture">CHAMS TRAINEE & PROJECT DEVELOPERS</p>
+</div>
+
+<!-- Mohammad Picture -->
+<div class="RefaeePictureList">
+    <img src="./Images/person/refaee.jpg" class="YohannPicture">
+    <h1 class="titleUndeYohannPicture">MOHAMMAD AL REFAEE</h1>
+    <p class="FirstParUndeYohannePicture">CHAMS TRAINEE & PROJECT DEVELOPERS</p>
+</div>
+
+<!-- Hala Picture -->
+<div class="HalaaPictureList">
+    <img src="./Images/person/halaa.jpg" class="sophianPicture">
+    <h1 class="titleUndesophianPicture">HALA Y.OBEIDAT</h1>
+    <p class="FirstParUndesophianPicture">SOFT SKILLS EXPERT</p>
+</div>
+
+<!-- Pashu Picture -->
+<div class="PashuPictureList">
+    <img src="./Images/person/IMG_20200323_013116.png" class="AntoinePicture">
+    <h1 class="titleUndeAntoinePicture">PASHU CHRISTENSEN</h1>
+    <p class="FirstParUndeAntoinePicture">US FRENCH AMBASSADOR</p>
+</div>
+</div>
+<footer>
+    <a href="./mentions-legales.html" class="linkFooter"> Mentions Legales </a>
+</footer>
+
+    <script>
+      function goFacebook(){
+Window = window.open( 
+    "http://www.facebook.com/sharer.php?u=https://arch-chams.herokuapp.com", 
+      "Share on Facebook", "width=400, height=450"); 
+
+}
+function goTwitter() {
+    Window = window.open( 
+        "https://twitter.com/share?url=https://arch-chams.herokuapp.com&amp;text=Chams%20Share%20Arch&amp;hashtags=chamssharearch", 
+          "Share on Twitter", "width=400, height=450"); 
+  }
+let tooltips = document.getElementById("tooltips")
+function show() {
+    tooltips.style.display = 'block';
+}
+
+
+function hide() {
+    tooltips.style.display = 'none';
+}
+
+
+        function Move_To_Adrress() {
+            open('https://www.helloasso.com/associations/chams/formulaires/3')
+        }
+
+function Set_Computer_LocalStorge() {
+    localStorage.setItem('CO_LO', 'computer')
+}
+function Set_Company_LocalStorge() {
+    localStorage.setItem('CO_LO', 'company')
+}
+function Set_Organism_LocalStorge() {
+    localStorage.setItem('CO_LO', 'Organism')
+}
+    </script>
+</body>
+</html>
