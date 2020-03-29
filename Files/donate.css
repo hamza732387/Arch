@@ -19,12 +19,14 @@ html {
   width: 100%;
 }
 .title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   position: relative;
   bottom: 250px;
   left: 200px;
   color: white;
   width: 200px;
   height: 50px;
+  font-weight: bold;
 }
 .donate_img {
   width: 250px;
@@ -479,7 +481,87 @@ top: 60px;
 height: 120px;
 }
 }
-@media screen and (width: 411px) {
+@media screen and (width: 411px)  {
+  .tooltip .bottom  {
+    min-width:350px;
+    top:-10px;
+    left:-95px;
+    transform:translate(-50%, 0);
+    padding:10px 20px;
+    color:#000000;
+    background-color:rgb(255, 255, 255);
+    font-weight:normal;
+    font-size:13px;
+    border-radius:8px;
+    position:absolute;
+    z-index:99999999;
+    box-sizing:border-box;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+    display:none;
+    margin-top: 40px;
+}
+.tooltip .bottom p{
+  font-size: 9px;
+}
+.tooltip .bottom i{
+  left: 300px;
+}
+
+.card2 {
+ width: 90px;
+ height:100px;
+ top: 55px;
+ left: 260px;
+}
+
+.card2 img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: -10px;
+}
+.text2 {
+font-size: 8px;
+}
+
+.s1 {
+  display: none;
+
+}
+.btn {
+ width: 60px;
+ height: 15px;
+ font-size: 8px;
+top: -50px;
+
+}
+
+.text1 {
+left: 125px;
+font-size: 8px;
+top: 80px;
+
+}
+.header {
+  height: 140px;
+}
+.title {
+font-size: 20px;
+top: -110px;
+left: 30px;
+}
+.donate_img {
+width: 70px;
+height: 70px;
+left: 50px;
+top: 60px;
+
+}
+.wave_img {
+height: 120px;
+}
+}
+
+@media screen and (width: 414px)  {
   .tooltip .bottom  {
     min-width:350px;
     top:-10px;
@@ -704,4 +786,142 @@ height: 120px;
   left: 430px;
 }
 
+}
+
+@media screen and (width: 375px)  {
+  .tooltip .bottom  {
+    min-width:350px;
+    top:-10px;
+    left:-95px;
+    transform:translate(-50%, 0);
+    padding:10px 20px;
+    color:#000000;
+    background-color:rgb(255, 255, 255);
+    font-weight:normal;
+    font-size:13px;
+    border-radius:8px;
+    position:absolute;
+    z-index:99999999;
+    box-sizing:border-box;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+    display:none;
+    margin-top: 40px;
+}
+.tooltip .bottom p{
+  font-size: 9px;
+}
+.tooltip .bottom i{
+  left: 300px;
+}
+
+.card2 {
+ width: 90px;
+ height:100px;
+ top: 55px;
+ left: 260px;
+}
+
+.card2 img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: -10px;
+}
+.text2 {
+font-size: 8px;
+}
+
+.s1 {
+  display: none;
+
+}
+.btn {
+ width: 60px;
+ height: 15px;
+ font-size: 8px;
+top: -50px;
+
+}
+
+.text1 {
+left: 125px;
+font-size: 8px;
+top: 80px;
+
+}
+.header {
+  height: 140px;
+}
+.title {
+font-size: 20px;
+top: -110px;
+left: 30px;
+}
+.donate_img {
+width: 70px;
+height: 70px;
+left: 50px;
+top: 60px;
+
+}
+.wave_img {
+height: 120px;
+}
+}
+@media screen and (width: 1080px)  {
+  .tooltip .bottom  {
+    min-width:550px;
+    top:-10px;
+    left:-95px;
+    transform:translate(-50%, 0);
+    padding:10px 20px;
+    color:#000000;
+    background-color:rgb(255, 255, 255);
+    font-weight:normal;
+    font-size:13px;
+    border-radius:8px;
+    position:absolute;
+    z-index:99999999;
+    box-sizing:border-box;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+    display:none;
+    margin-top: 80px;
+}
+.tooltip .bottom p{
+  font-size:15px;
+}
+.tooltip .bottom i{
+  left: 430px;
+}
+
+  .card2{
+    top: 80px;
+   width: 170px;
+   height: 230px;
+    left: 650px;
+  }
+  .clean_img{
+    width: 70px;
+    height: 70px;
+  }
+  .btn{
+    width: 120px;
+    height: 40px;
+  }
+  .wave_img{
+    height: 200px;
+  }
+  .donate_img{
+    left: 140px;
+    width: 150px;
+    height: 150px;
+  }
+  .title{
+    top: -190px;
+    left: 100px;
+  }
+  .text1{
+    left: 300px;
+    font-size: 15px;
+    top: 150px;
+  }
 }
