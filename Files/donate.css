@@ -925,3 +925,84 @@ height: 120px;
     top: 150px;
   }
 }
+@media screen and (width: 600px)  {
+
+  .tooltip .bottom  {
+    min-width:350px;
+    top:-10px;
+    left:-95px;
+    transform:translate(-50%, 0);
+    padding:10px 20px;
+    color:#000000;
+    background-color:rgb(255, 255, 255);
+    font-weight:normal;
+    font-size:13px;
+    border-radius:8px;
+    position:absolute;
+    z-index:99999999;
+    box-sizing:border-box;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+    display:none;
+    margin-top: 40px;
+}
+.tooltip .bottom p{
+  font-size: 9px;
+}
+.tooltip .bottom i{
+  left: 300px;
+}
+
+.card2 {
+ width: 120px;
+ height:140px;
+ top: 55px;
+ left: 460px;
+}
+
+.card2 img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: -10px;
+}
+.text2 {
+font-size: 8px;
+}
+
+.s1 {
+  display: none;
+
+}
+.btn {
+ width: 60px;
+ height: 15px;
+ font-size: 8px;
+top: -50px;
+
+}
+
+.text1 {
+left: 160px;
+font-size: 13px;
+top: 100px;
+
+}
+.header {
+  height: 140px;
+}
+.title {
+font-size: 20px;
+top: -140px;
+left: 30px;
+}
+.donate_img {
+width: 100px;
+height: 100px;
+left: 50px;
+top: 60px;
+
+}
+.wave_img {
+height: 150px;
+}
+
+}
