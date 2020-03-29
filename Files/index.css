@@ -25,7 +25,7 @@ top: 50px;
     color: rgb(255, 208, 0);
     font-size: 3rem;
     font-weight: bold;
-font-family: 'Open Sans',sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .First_Title{
@@ -232,14 +232,6 @@ cursor: pointer;
     font-size: 2.3rem;  
     font-family: 'Open Sans',sans-serif;
 }
-.SecondTitleAfterSignal{
-    position: relative;
-    margin-top: -35px;
-    text-align: center;
-    font-size: 2.2rem;
-    font-weight: bold;
-    font-family: 'Open Sans',sans-serif;
-}
 .lists2{
     position: relative;
     height: 375px;
@@ -386,6 +378,7 @@ color: rgb(19, 44, 168);
 margin-top: -360px;
 clip: rect(360px 500px 1000px 0px);
 border-radius: 30px;
+height: auto;
 }
 .CarPicture{
     margin-left: 43%;
@@ -570,6 +563,31 @@ footer{
     color: #ffe600;
     text-decoration: #ffe600;
 }
+@media only screen and (max-width: 1009px){
+    .FirstParUndertipPicture{
+        margin-top: 40px;   
+    }
+
+}
+@media only screen and (max-width: 1009px){
+    .FirstParUndertipPicture{
+        margin-bottom:47px;   
+    }
+
+}
+@media only screen and (max-width: 966px){
+    .FirstParUndertipPicture{
+        margin-top: -15px;   
+    }
+
+}
+@media only screen and (max-width: 830px){
+ 
+    .Give{
+margin-top: -37px;
+    }
+
+}
  @media only screen and (max-width: 800px){ 
      .HeaderPicture{
         position: absolute;
@@ -699,10 +717,12 @@ footer{
     }
     .FirstParUndertipPicture{
         font-size: 12px;
+        margin: 20px;
+        margin-bottom: -13px;
     }
 
     .Give{
-        margin-top: -15px;
+        margin-top: 25px;
     }
     .bottom{
         position: absolute;
@@ -783,6 +803,20 @@ footer{
         width: 27%;
     }
 }
+@media only screen and (max-width: 737px){
+    .share{
+        margin-top: -10px;
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 714px){
+    .Give{
+margin-top: 35px;
+    }
+    .GiveTipList{
+       width: 25%;
+    }
+}
     
     @media only screen and (max-width: 600px){
         .HeaderPicture{
@@ -810,26 +844,26 @@ footer{
         }
         .First_Line_Content{
             margin-top: -40px;
-            margin-left: 15%;
+            /* margin-left: 15%; */
             font-size: 16px;
         }
         .FirstList{
             width: 32%;
             margin-top:0px;
             margin-left: 14%;
-            height: 185px;
+            height: auto;
         }
         .SecondList{
             width: 32%;
             margin-top:0px;
             margin-left: 58%;
-            height: 185px;
+            height: auto;
         }
         .TherdList{
             width: 35%;
             margin-top:250px;
             margin-left: 37%;
-            height: 185px; 
+            height: auto; 
         }
         .FirstParUnderDonatePicture{
             font-size: 11px;
@@ -872,16 +906,22 @@ footer{
             margin-left: 15%;
         }
         .GiveTipList{
-            width: 27%;
+            width: 33%;
             margin-top: 0px;
             margin-left: 55%;
         }
+        .FirstParUndertipPicture{
+            font-size: 12px;
+            margin: 30px;
+            margin-bottom: -10px;
+        }    
         .share{
             font-size:13px;
+            margin-top: 20px;  
+            width: 80%;
         }
         .Give{
             font-size:13px;
-            margin-top: -15px;  
             width: 80%;
             margin-left: 10%;
         }
@@ -927,7 +967,7 @@ footer{
             }
             .HamzaPictureList{
                 margin-top: 420px;
-                margin-right: 70%;
+                margin-right: 55%;
             }
       
             .BasharPictureList{
@@ -962,7 +1002,7 @@ footer{
                 margin-left: -27%;
             }
             .borderPictureEmail{
-                width: 39%;
+                width: 36%;
             }
 
     }
@@ -1007,13 +1047,13 @@ footer{
         .SecondList{
             height: auto;
             width: 50%;
-            margin-top:225px;
+            margin-top:250px;
             margin-left: 27%;
         }
         .TherdList{
             height: auto;
             width: 50%;
-            margin-top:470px;
+            margin-top:500px;
             margin-left: 27%;
         }
         .donatePicture,.CompanyPicture{
@@ -1073,7 +1113,7 @@ footer{
     
         }
         .Signal{
-            margin-top: 225px;
+            margin-top: 275px;
             font-size: 60px;
           
         }
@@ -1128,7 +1168,7 @@ footer{
             }
             .FirstParUndertipPicture{
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    margin-top: -5px;
                 font-size: 12px;
                 
             }
@@ -1140,7 +1180,7 @@ footer{
                 margin-left: -6%;
             }
             .share{
-                width: 60%;
+                width: 75%;
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
                 margin-top: 0px;
@@ -1195,7 +1235,7 @@ footer{
                
             }
             .borderPictureEmail{
-                width: 42%;
+                width: 39%;
             }
 
             .Who_We{
@@ -1258,3 +1298,86 @@ footer{
                 text-decoration: #ffe600;
             }
         }
+        @media only screen and (max-width: 474px){
+            .FirstParUndertipPicture{
+              margin-bottom: -20px;  
+            }
+    }
+    @media only screen and (max-width: 433px){
+        .FirstParUndertipPicture{
+          margin-bottom: -30px;  
+        }
+}
+@media only screen and (max-width: 381px){
+    .FirstParUndertipPicture{
+      margin-bottom: -25px;  
+    }
+}
+@media only screen and (max-width: 348px){
+    .ShareList{
+        margin-top: 0px;
+        margin-left: 10%;
+    }
+    .GiveTipList{
+        width: 40%;
+        margin-top: 0px;
+        margin-left: 65%;
+    }
+            .titleUndertipPicture{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 15px;
+                margin-top: 22px; 
+            }
+            .FirstParUndertipPicture{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: -5px;
+                font-size: 12px;  
+            }
+            .SecondParUndertipPicture{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                margin-top: -8px; 
+                font-size: 12px;
+                margin-left: -6%;
+            }
+            .share{
+                width: 85%;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                margin-top: 0px;
+            font-size: 13px;
+            height:auto;
+            }
+            .Give{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                width: 75%;
+                margin-bottom: 100px;
+            font-size: 13px;
+            height: auto;
+            }
+
+        }
+
+
+@media only screen and (max-width: 340px){
+    .TherdList{
+        margin-top: 525px;
+    }
+    .Signal{
+        margin-top: 325px;
+    }
+
+}
+
+@media only screen and (max-width: 332px){
+    .share{
+        width: 95%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 0px;
+    font-size: 13px;
+    height:auto;
+    }
+}
+@media only screen and (max-width: 326px){
+    .ShareList{
+        width: 35%;
+    }
+}
