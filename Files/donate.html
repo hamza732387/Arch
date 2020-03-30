@@ -2,7 +2,11 @@
 <html lang="en">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./donate.css">
 
     <title>Donate</title>
@@ -11,38 +15,40 @@
 <body>
 
     <header class='header'>
-        <img class="wave_img" src="Images/Background/wave-header.png">
+        <img src="./Images/Background/wave-header.png" class="headerPicture">
         <h1 class="title">
             #ARCH
         </h1>
+        <div class="h">
         <img class="donate_img" src="./Images/Illustration/donate-1.png">
-        <h2 class="text1">
-           Merci, votre action contribue à
-            <p> un monde numérique plus inclusif</p>
-        </h2>
+        <div class="textheader">
+            <p class="text1"> Merci, votre action contribue à <br>
+                un monde numérique plus inclusif</p>
+        </div>
+    </div>   
+        
         <div class="card2">
             <img src="./Images/Icon/gloves.png" name="clean" class="clean_img">
             <h3 class="text2">
-                Comment décontaminer <p>sa machine</p>
+                Comment décontaminer <br> sa machine
             </h3>
-            <button class="btn btn-primary tooltip " >Commencez
-                <div class="bottom">
-                    <p>Attention, le matériel informatique est fragile, et très sensible à l’humidité. Faites attention lors du nettoyage.  </p>
-                    <p style="margin-top: 10px;"></p>
-                      <P>  Le produit le plus simple à utiliser est l’alcool (70° ou 90°), ou une lingette désinfectante (sans Javel).</P>
-                      <p style="margin-top: 10px;"></p>
+            <button class="btn btn-primary tooltip " onmousemove="show()" onmouseout="hide()">Information
+                
+            </button> 
+        </div>
+        <div class="bottom" id="tooltibs">
+            <p>Attention, le matériel informatique est fragile, et très sensible à l’humidité. Faites attention lors du nettoyage.  </p>
+            <p style="margin-top: 10px;"></p>
+              <P>  Le produit le plus simple à utiliser est l’alcool (70° ou 90°), ou une lingette désinfectante (sans Javel).</P>
+              <p style="margin-top: 10px;"></p>
 
-                         
-                 <p>      Ordinateurs portables : Passez un tissus microfibre légèrement imbibé d’alcool sur le clavier, le touchpad, l’écran, le dessus et le dessous de la coque. Mettez ensuite l’ordinateur dans un sac plastique avant de l’emballer, pour éviter de le recontaminer. Effectuer la même procédure avec le chargeur de l’ordinateur. </p> 
-                 <p style="margin-top: 10px;"></p>
-      
-                 <p>     Ordinateurs fixes :  Passez un tissus microfibre légèrement imbibé d’alcool sur le clavier, la souris, la tour et l’écran. Mettez ensuite chaque élément de l’ordinateur dans un sac plastique avant de l’emballer, pour éviter de les recontaminer.</p>
-                      
-                    <i></i>
-                </div>
-            </button>
-                    <!-- NEW CODE.. -->
-            
+                 
+         <p>      Ordinateurs portables : Passez un tissus microfibre légèrement imbibé d’alcool sur le clavier, le touchpad, l’écran, le dessus et le dessous de la coque. Mettez ensuite l’ordinateur dans un sac plastique avant de l’emballer, pour éviter de le recontaminer. Effectuer la même procédure avec le chargeur de l’ordinateur. </p> 
+         <p style="margin-top: 10px;"></p>
+
+         <p>     Ordinateurs fixes :  Passez un tissus microfibre légèrement imbibé d’alcool sur le clavier, la souris, la tour et l’écran. Mettez ensuite chaque élément de l’ordinateur dans un sac plastique avant de l’emballer, pour éviter de les recontaminer.</p>
+              
+            <i></i>
         </div>
         <!-- END -->
 
@@ -125,6 +131,14 @@ let body1 = document.getElementById("body1");
         body1.style.display='none'
         body2.style.display='none'
 
+    }
+    let tooltibs = document.getElementById("tooltibs");
+
+    function hide() {
+        tooltibs.style.display = 'none';
+    }
+    function show() {
+        tooltibs.style.display = 'block';
     }
     </script>
 
