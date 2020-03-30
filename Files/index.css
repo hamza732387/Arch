@@ -18,6 +18,9 @@
 button:hover{
 background-color: rgb(224, 169, 18);
 }
+.RefaeePicture{
+    margin-left: 20%;
+}
 .Text_First{
 position: relative;
 top: 50px;
