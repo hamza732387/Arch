@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./donate.css">
+
+    <title>Donate</title>
+</head>
+
+<body>
+
+    <header class='header'>
+        <img src="./Images/Background/wave-header.png" class="headerPicture">
+        <h1 class="title">
+            #ARCH
+        </h1>
+        </div>
+    </header>
+
+    <div class="body" id="body1" >
+        <div class="typeform-widget" data-url="https://sa599965.typeform.com/to/rAs8ly" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=rAs8ly&utm_source=typeform.com-01E3Q7NDTH8EEXET5WKCZ0FGEW-professional&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+    </div>
+    <div class="body" id="body2" >
+        <div class="typeform-widget" data-url="https://sa599965.typeform.com/to/iONghc" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=iONghc&utm_source=typeform.com-01E3Q7NDTH8EEXET5WKCZ0FGEW-professional&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>        
+            </div>
+            <div class="body" id="body3" >
+                <div class="typeform-widget" data-url="https://sa599965.typeform.com/to/ihnhHo" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=ihnhHo&utm_source=typeform.com-01E3Q7NDTH8EEXET5WKCZ0FGEW-professional&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>                
+                    </div>
+                        
+    
+    <script>
+
+let body1 = document.getElementById("body1");
+    let body2 = document.getElementById("body2");
+    let body3 = document.getElementById("body3");
+
+    let TRG = localStorage.getItem("CO_LO");
+    if (TRG === "computer") {
+        body1.style.display='block'
+        body2.style.display='none'
+        body3.style.display='none'
+
+    }else if(TRG==="company"){
+        body2.style.display='block'
+        body1.style.display='none'
+        body3.style.display='none'
+
+    }else if(TRG==="Organism"){
+        body3.style.display='block'
+        body1.style.display='none'
+        body2.style.display='none'
+
+    }
+    let tooltibs = document.getElementById("tooltibs");
+
+    function hide() {
+        tooltibs.style.display = 'none';
+    }
+    function show() {
+        tooltibs.style.display = 'block';
+    }
+    </script>
+
+</body>
+
+</html>
